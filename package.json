@@ -1,7 +1,7 @@
 {
-  "name": "sidecode",
-  "version": "1.0.0",
-  "description": "Boilerplate demo with yarn and lerna",
+  "name": "@sidecode/whole-sidecodes",
+  "version": "1.0.1",
+  "description": "Helper methods for fast and clean code",
   "main": "index.js",
   "author": "Aditya Tanguturi",
   "license": "MIT",
@@ -9,11 +9,13 @@
     "lerna": "^3.19.0",
     "webpack": "^4.41.4"
   },
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "workspaces": [
-    "array-sidecodes",
-    "number-sidecodes",
-    "object-sidecodes",
-    "string-sidecodes"
+    "@sidecode/array-sidecodes",
+    "@sidecode/number-sidecodes",
+    "@sidecode/object-sidecodes",
+    "@sidecode/string-sidecodes"
   ]
 }
