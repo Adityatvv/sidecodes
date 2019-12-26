@@ -1,0 +1,19 @@
+{
+  "name": "sidecode",
+  "version": "1.0.0",
+  "description": "Boilerplate demo with yarn and lerna",
+  "main": "index.js",
+  "author": "Aditya Tanguturi",
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^3.19.0",
+    "webpack": "^4.41.4"
+  },
+  "private": true,
+  "workspaces": [
+    "array-sidecodes",
+    "number-sidecodes",
+    "object-sidecodes",
+    "string-sidecodes"
+  ]
+}
