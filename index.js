@@ -10,7 +10,6 @@ const objectSideCodes = new ObjectSideCodes();
 
 export function concat(arg1, arg2) {
   var typeMethodRelation = {
-    'number': numberSideCodes,
     'object': objectSideCodes,
     'string': stringSideCodes,
     'array':  arraySideCodes,
