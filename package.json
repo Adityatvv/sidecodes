@@ -1,6 +1,6 @@
 {
   "name": "sidecodes",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Helper methods for fast and clean code",
   "main": "index.js",
   "author": "Aditya Tanguturi",
@@ -16,14 +16,18 @@
     "eslint": "^6.8.0",
     "mocha": "^6.2.2",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "chai": "^4.2.0"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Adityatvv/sidecodes"
   },
   "dependencies": {
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
     "@babel/plugin-proposal-class-properties": "^7.7.4",
     "@babel/preset-env": "^7.7.7",
-    "babel-loader": "^8.0.6",
-    "chai": "^4.2.0"
+    "babel-loader": "^8.0.6"
   }
 }
